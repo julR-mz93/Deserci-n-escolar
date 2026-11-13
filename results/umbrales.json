@@ -1,0 +1,7 @@
+{
+  "umbral_f1_optimo": 0.595,
+  "f1_umbral_0.5": 0.7885,
+  "f1_umbral_optimo": 0.7986,
+  "recall_umbral_optimo": 0.7887,
+  "modelo": "Regresión Logística"
+}

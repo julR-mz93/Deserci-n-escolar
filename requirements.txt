@@ -1,0 +1,30 @@
+# Actividad 3.2.1 · Aprendizaje Automático Supervisado
+# Entorno verificado con Python 3.14
+# Instalación: pip install -r requirements.txt
+
+# Núcleo de datos y modelado
+pandas>=2.2,<4
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+scipy>=1.13,<2
+
+# Visualización
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+
+# Persistencia del modelo
+joblib>=1.4,<2
+
+# Aplicación web
+streamlit>=1.36,<2
+
+# Notebooks ejecutados
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8
+
+# Generación de documentos y figuras
+python-docx>=1.1,<2
+python-pptx>=1.0,<2
+qrcode>=7.4,<9
+Pillow>=10.0,<13

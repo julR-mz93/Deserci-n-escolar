@@ -1,0 +1,15 @@
+escenario,etapa,modelo,accuracy,precision,recall,f1,roc_auc,pr_auc,f1_train,brecha_f1
+completo,baseline,Regresión Logística,0.8814,0.7973,0.8451,0.8205,0.9316,0.9006,0.8098,-0.0107
+completo,baseline,KNN,0.8621,0.8491,0.6937,0.7636,0.9003,0.8145,0.8289,0.0654
+completo,baseline,SVM (RBF),0.8893,0.8633,0.7782,0.8185,0.9309,0.8787,0.8672,0.0487
+completo,baseline,Árbol de Decisión,0.8192,0.7109,0.7359,0.7232,0.7972,0.6079,1.0,0.2768
+completo,baseline,Random Forest,0.8847,0.8273,0.8099,0.8185,0.9349,0.9057,0.9996,0.1811
+completo,baseline,Red Neuronal (MLP),0.8825,0.875,0.7394,0.8015,0.9304,0.9002,0.8192,0.0176
+completo,baseline,Naive Bayes,0.8384,0.7327,0.7817,0.7564,0.89,0.7847,0.7481,-0.0083
+temprano,baseline,Regresión Logística,0.8576,0.7582,0.8169,0.7864,0.9127,0.8724,0.7807,-0.0058
+temprano,baseline,KNN,0.8282,0.8333,0.581,0.6846,0.8389,0.7504,0.7919,0.1073
+temprano,baseline,SVM (RBF),0.8633,0.8273,0.7254,0.773,0.9084,0.8574,0.8496,0.0766
+temprano,baseline,Árbol de Decisión,0.7898,0.6725,0.6725,0.6725,0.7589,0.5574,1.0,0.3275
+temprano,baseline,Random Forest,0.8588,0.7809,0.7782,0.7795,0.9133,0.8748,1.0,0.2205
+temprano,baseline,Red Neuronal (MLP),0.8644,0.8504,0.7007,0.7683,0.9132,0.878,0.7885,0.0201
+temprano,baseline,Naive Bayes,0.8192,0.7109,0.7359,0.7232,0.8603,0.7205,0.6998,-0.0234

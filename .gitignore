@@ -1,0 +1,39 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.log
+tmp/

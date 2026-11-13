@@ -1,0 +1,58 @@
+{
+  "completo|Regresión Logística": {
+    "C": 0.1
+  },
+  "completo|KNN": {
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "completo|SVM (RBF)": {
+    "C": 5,
+    "gamma": 0.01
+  },
+  "completo|Árbol de Decisión": {
+    "max_depth": 4,
+    "min_samples_leaf": 5
+  },
+  "completo|Random Forest": {
+    "max_depth": 14,
+    "min_samples_leaf": 1
+  },
+  "completo|Red Neuronal (MLP)": {
+    "alpha": 0.0001,
+    "hidden_layer_sizes": [
+      32
+    ]
+  },
+  "completo|Naive Bayes": {
+    "var_smoothing": 1e-09
+  },
+  "temprano|Regresión Logística": {
+    "C": 10
+  },
+  "temprano|KNN": {
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "temprano|SVM (RBF)": {
+    "C": 5,
+    "gamma": 0.01
+  },
+  "temprano|Árbol de Decisión": {
+    "max_depth": 6,
+    "min_samples_leaf": 5
+  },
+  "temprano|Random Forest": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "temprano|Red Neuronal (MLP)": {
+    "alpha": 0.01,
+    "hidden_layer_sizes": [
+      32
+    ]
+  },
+  "temprano|Naive Bayes": {
+    "var_smoothing": 1e-09
+  }
+}

@@ -1,0 +1,34 @@
+variable,importancia,std
+reprobadas_1s,0.0535,0.006
+Curricular units 1st sem (approved),0.0508,0.0067
+Tuition fees up to date,0.0433,0.0029
+Curricular units 1st sem (credited),0.031,0.0033
+Unemployment rate,0.014,0.002
+Course,0.0113,0.0021
+Father's occupation,0.0102,0.0033
+Curricular units 1st sem (enrolled),0.0069,0.0025
+Age at enrollment,0.0069,0.0016
+Gender,0.0063,0.0012
+Application mode,0.0047,0.0017
+Scholarship holder,0.0028,0.0011
+tasa_aprobacion_1s,0.0017,0.0005
+evaluaciones_por_inscrita_1s,0.0016,0.0007
+Daytime/evening attendance,0.0015,0.0009
+Curricular units 1st sem (grade),0.0014,0.0005
+Displaced,0.0013,0.0008
+Mother's qualification,0.0013,0.002
+Application order,0.001,0.0006
+Inflation rate,0.0008,0.0005
+Debtor,0.0007,0.0015
+Previous qualification (grade),0.0005,0.0009
+GDP,0.0005,0.0003
+Mother's occupation,0.0004,0.002
+Admission grade,0.0004,0.0005
+Previous qualification,0.0003,0.0003
+International,0.0003,0.0002
+Curricular units 1st sem (without evaluations),0.0002,0.0006
+sin_evaluar_1s,0.0002,0.0006
+Curricular units 1st sem (evaluations),0.0001,0.0001
+Father's qualification,-0.0,0.0012
+Educational special needs,-0.0001,0.0001
+Marital status,-0.0003,0.0009

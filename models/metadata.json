@@ -1,0 +1,539 @@
+{
+  "modelo": "Regresión Logística",
+  "escenario": "temprano (inscripción + primer semestre)",
+  "umbral": 0.595,
+  "columnas": [
+    "Application order",
+    "Previous qualification (grade)",
+    "Admission grade",
+    "Age at enrollment",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "tasa_aprobacion_1s",
+    "evaluaciones_por_inscrita_1s",
+    "reprobadas_1s",
+    "sin_evaluar_1s",
+    "Marital status",
+    "Application mode",
+    "Course",
+    "Previous qualification",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Daytime/evening attendance",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "International"
+  ],
+  "categoricas": [
+    "Marital status",
+    "Application mode",
+    "Course",
+    "Previous qualification",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation"
+  ],
+  "binarias": [
+    "Daytime/evening attendance",
+    "Displaced",
+    "Educational special needs",
+    "Debtor",
+    "Tuition fees up to date",
+    "Gender",
+    "Scholarship holder",
+    "International"
+  ],
+  "numericas": [
+    "Application order",
+    "Previous qualification (grade)",
+    "Admission grade",
+    "Age at enrollment",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "tasa_aprobacion_1s",
+    "evaluaciones_por_inscrita_1s",
+    "reprobadas_1s",
+    "sin_evaluar_1s"
+  ],
+  "valores_defecto": {
+    "Application order": 1.0,
+    "Previous qualification (grade)": 133.1,
+    "Admission grade": 126.1,
+    "Age at enrollment": 20.0,
+    "Unemployment rate": 11.1,
+    "Inflation rate": 1.4,
+    "GDP": 0.32,
+    "Curricular units 1st sem (credited)": 0.0,
+    "Curricular units 1st sem (enrolled)": 6.0,
+    "Curricular units 1st sem (evaluations)": 8.0,
+    "Curricular units 1st sem (approved)": 5.0,
+    "Curricular units 1st sem (grade)": 12.285714285714286,
+    "Curricular units 1st sem (without evaluations)": 0.0,
+    "tasa_aprobacion_1s": 0.8333333333333334,
+    "evaluaciones_por_inscrita_1s": 1.2,
+    "reprobadas_1s": 1.0,
+    "sin_evaluar_1s": 0.0,
+    "Marital status": 1.0,
+    "Application mode": 17.0,
+    "Course": 9238.0,
+    "Previous qualification": 1.0,
+    "Mother's qualification": 19.0,
+    "Father's qualification": 19.0,
+    "Mother's occupation": 5.0,
+    "Father's occupation": 7.0,
+    "Daytime/evening attendance": 1.0,
+    "Displaced": 1.0,
+    "Educational special needs": 0.0,
+    "Debtor": 0.0,
+    "Tuition fees up to date": 1.0,
+    "Gender": 0.0,
+    "Scholarship holder": 0.0,
+    "International": 0.0
+  },
+  "metricas_test": {
+    "accuracy": 0.8723,
+    "precision": 0.8087,
+    "recall": 0.7887,
+    "f1": 0.7986,
+    "roc_auc": 0.9119,
+    "pr_auc": 0.8714
+  },
+  "matriz_confusion": [
+    [
+      548,
+      53
+    ],
+    [
+      60,
+      224
+    ]
+  ],
+  "n_train": 3539,
+  "n_test": 885,
+  "desercion_test": 0.3209,
+  "rangos": {
+    "Application order": {
+      "min": 0.0,
+      "max": 9.0,
+      "p05": 1.0,
+      "p95": 5.0,
+      "mediana": 1.0
+    },
+    "Previous qualification (grade)": {
+      "min": 95.0,
+      "max": 190.0,
+      "p05": 110.0,
+      "p95": 157.0,
+      "mediana": 133.1
+    },
+    "Admission grade": {
+      "min": 95.0,
+      "max": 190.0,
+      "p05": 103.415,
+      "p95": 153.5,
+      "mediana": 126.1
+    },
+    "Age at enrollment": {
+      "min": 17.0,
+      "max": 70.0,
+      "p05": 18.0,
+      "p95": 41.0,
+      "mediana": 20.0
+    },
+    "Unemployment rate": {
+      "min": 7.6,
+      "max": 16.2,
+      "p05": 7.6,
+      "p95": 16.2,
+      "mediana": 11.1
+    },
+    "Inflation rate": {
+      "min": -0.8,
+      "max": 3.7,
+      "p05": -0.8,
+      "p95": 3.7,
+      "mediana": 1.4
+    },
+    "GDP": {
+      "min": -4.06,
+      "max": 3.51,
+      "p05": -4.06,
+      "p95": 3.51,
+      "mediana": 0.32
+    },
+    "Curricular units 1st sem (credited)": {
+      "min": 0.0,
+      "max": 20.0,
+      "p05": 0.0,
+      "p95": 6.0,
+      "mediana": 0.0
+    },
+    "Curricular units 1st sem (enrolled)": {
+      "min": 0.0,
+      "max": 26.0,
+      "p05": 4.0,
+      "p95": 11.0,
+      "mediana": 6.0
+    },
+    "Curricular units 1st sem (evaluations)": {
+      "min": 0.0,
+      "max": 45.0,
+      "p05": 0.0,
+      "p95": 15.0,
+      "mediana": 8.0
+    },
+    "Curricular units 1st sem (approved)": {
+      "min": 0.0,
+      "max": 26.0,
+      "p05": 0.0,
+      "p95": 9.0,
+      "mediana": 5.0
+    },
+    "Curricular units 1st sem (grade)": {
+      "min": 0.0,
+      "max": 18.875,
+      "p05": 0.0,
+      "p95": 14.857142857142858,
+      "mediana": 12.285714285714286
+    },
+    "Curricular units 1st sem (without evaluations)": {
+      "min": 0.0,
+      "max": 12.0,
+      "p05": 0.0,
+      "p95": 1.0,
+      "mediana": 0.0
+    },
+    "tasa_aprobacion_1s": {
+      "min": 0.0,
+      "max": 1.0,
+      "p05": 0.0,
+      "p95": 1.0,
+      "mediana": 0.8333333333333334
+    },
+    "evaluaciones_por_inscrita_1s": {
+      "min": 0.0,
+      "max": 3.5,
+      "p05": 0.0,
+      "p95": 2.2857142857142856,
+      "mediana": 1.2
+    },
+    "reprobadas_1s": {
+      "min": 0.0,
+      "max": 9.0,
+      "p05": 0.0,
+      "p95": 6.0,
+      "mediana": 1.0
+    },
+    "sin_evaluar_1s": {
+      "min": 0.0,
+      "max": 12.0,
+      "p05": 0.0,
+      "p95": 1.0,
+      "mediana": 0.0
+    }
+  },
+  "opciones": {
+    "Marital status": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Application mode": [
+      1,
+      2,
+      5,
+      7,
+      10,
+      15,
+      16,
+      17,
+      18,
+      26,
+      27,
+      39,
+      42,
+      43,
+      44,
+      51,
+      53,
+      57
+    ],
+    "Course": [
+      33,
+      171,
+      8014,
+      9003,
+      9070,
+      9085,
+      9119,
+      9130,
+      9147,
+      9238,
+      9254,
+      9500,
+      9556,
+      9670,
+      9773,
+      9853,
+      9991
+    ],
+    "Previous qualification": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      12,
+      14,
+      15,
+      19,
+      38,
+      39,
+      40,
+      42,
+      43
+    ],
+    "Mother's qualification": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      14,
+      18,
+      19,
+      22,
+      26,
+      27,
+      29,
+      30,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "Father's qualification": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      18,
+      19,
+      20,
+      22,
+      25,
+      26,
+      27,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "Mother's occupation": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      90,
+      99,
+      122,
+      123,
+      125,
+      131,
+      132,
+      134,
+      141,
+      143,
+      144,
+      151,
+      152,
+      153,
+      171,
+      173,
+      175,
+      191,
+      192,
+      193,
+      194
+    ],
+    "Father's occupation": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      90,
+      99,
+      101,
+      102,
+      103,
+      112,
+      114,
+      121,
+      122,
+      123,
+      124,
+      131,
+      132,
+      134,
+      135,
+      141,
+      143,
+      144,
+      151,
+      152,
+      153,
+      154,
+      161,
+      163,
+      171,
+      172,
+      174,
+      175,
+      181,
+      182,
+      183,
+      192,
+      193,
+      194,
+      195
+    ],
+    "Daytime/evening attendance": [
+      0,
+      1
+    ],
+    "Displaced": [
+      0,
+      1
+    ],
+    "Educational special needs": [
+      0,
+      1
+    ],
+    "Debtor": [
+      0,
+      1
+    ],
+    "Tuition fees up to date": [
+      0,
+      1
+    ],
+    "Gender": [
+      0,
+      1
+    ],
+    "Scholarship holder": [
+      0,
+      1
+    ],
+    "International": [
+      0,
+      1
+    ]
+  },
+  "etiquetas_binarias": {
+    "Daytime/evening attendance": [
+      "Nocturno",
+      "Diurno"
+    ],
+    "Displaced": [
+      "No",
+      "Sí"
+    ],
+    "Educational special needs": [
+      "No",
+      "Sí"
+    ],
+    "Debtor": [
+      "No",
+      "Sí"
+    ],
+    "Tuition fees up to date": [
+      "No",
+      "Sí"
+    ],
+    "Gender": [
+      "Masculino",
+      "Femenino"
+    ],
+    "Scholarship holder": [
+      "No",
+      "Sí"
+    ],
+    "International": [
+      "No",
+      "Sí"
+    ]
+  }
+}
